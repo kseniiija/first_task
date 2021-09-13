@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #19a1ad;
+  background-image: url(/images/bg-pattern-top.svg);
+  background-size: 70%;
+  background-position: 0px 88px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card-container {
+  width: 330px;
+  height: 365px;
+  background: #FFF;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.card-container .upper-container {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: none;
+  height: 150px;
+  background: #059bb6;
+  background-image: url(/images/bg-pattern-card.svg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.card-container .lower-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 215px;
+}
+
+.card-container .lower-container .user-image-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.card-container .lower-container .user-image-card .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.card-container .lower-container .user-image-card .image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: inherit;
+}
+
+.card-container .lower-container .user-image-card .name {
+  color: gray;
+  margin-top: 10px;
+}
+
+.card-container .lower-container .user-image-card .name strong {
+  color: black;
+}
+
+.card-container .lower-container .user-image-card .city {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+  font-weight: normal;
+}
+
+.card-container .lower-container .social-info {
+  border-top: 1px solid gainsboro;
+  margin-top: auto;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.card-container .lower-container .social-info div {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-container .lower-container .social-info div span:nth-child(2) {
+  letter-spacing: 1px;
+  font-size: 10px;
+  margin-top: 5px;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
