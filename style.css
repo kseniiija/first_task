@@ -3,7 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #19a1ad;
-  background-image: url(/images/bg-pattern-top.svg);
+  background-image: url(images/bg-pattern-top.svg);
   background-size: 70%;
   background-position: 0px 88px;
 }
@@ -41,7 +41,7 @@ body {
   border-bottom-right-radius: none;
   height: 150px;
   background: #059bb6;
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(images/bg-pattern-card.svg);
   background-position: center;
   background-size: 100% 100%;
 }
